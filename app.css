@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=EB+Garamond:wght@400;500;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&family=Poppins:wght@300;400&family=Source+Code+Pro:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+    background: #039380;
+
+}
+
+li {
+    list-style: none;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.765);
+    text-align: center;
+    padding: 25px 15px;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+.pricing-img {
+    padding-block-end: 19px;
+}
+
+.pricing-header {
+    letter-spacing: 2px;
+    padding-block: 9px;
+    border-top: 1px solid #039380;
+    border-bottom: 1px solid #039380;
+    font-weight: 700;
+    color: #032823;
+}
+
+.pricing-plan {
+    margin-block: 50px;
+    padding-bottom: 25px;
+    border-bottom: 4px solid #0b615594;
+    border-radius: 4px;
+}
+
+.pricing-price {
+    display: block;
+    padding-block: 10px;
+    color: #035432;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.pricing-plan:nth-child(3) {
+    border: none;
+    margin-block-end: 20px;
+}
+
+.pricing-plan:nth-of-type(1) {
+    margin-block-start: 20px;
+}
+
+.pricing-button {
+    text-decoration: none;
+    border: 1px solid rgb(4, 56, 42);
+    background-color: #0c6741;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    transition: background-color 0.25s;
+}
+
+.pricing-button:hover {
+    background-color: #154a43;
+}
+
+.is-featured {
+    border: 1px solid rgb(70, 55, 10);
+    background-color: rgb(172, 135, 23);
+}
+
+.is-featured:hover {
+    background-color: rgb(130, 101, 13);
+}
+
+.pricing-features-item {
+    line-height: 10px;
+    padding-block: 16px;
+    border-bottom: 1px solid #039380;
+}
+
+.pricing-features-item:first-child {
+    border: none;
+}
